@@ -109,7 +109,7 @@ body {
 
 .renameButton {
   position: absolute;
-  bottom: 50px;
+  bottom: 75px;
   width: 275px;
   height: 65px;
   border-radius: 25px;
@@ -126,6 +126,22 @@ body {
 .renameButton:active {
   background: gray;
   color: #339aca;
+}
+
+.repaintButton {
+  position: absolute;
+  bottom: 0;
+  width: 275px;
+  height: 65px;
+  border-radius: 25px;
+  background: white;
+  color: #00adff;
+  font-size: 45px;
+  text-align: center;
+  text-shadow: black 1px 2px 1px;
+  outline: none;
+  cursor: pointer;
+  text-transform: capitalize;
 }
 
 @keyframes bubbles {
@@ -185,7 +201,7 @@ body {
     align-items: flex-end;
   }
 
-  .renameButton {
+  .renameButton, .repaintButton {
     display: none;
   }
 }

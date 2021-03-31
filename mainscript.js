@@ -205,6 +205,19 @@ flask5.addEventListener('mouseout', function() {
     document.getElementById('audio').pause();
 })
 
+function repaintAllFlasks() {
+    color1 = getRandomInt(5,1000);
+    color2 = getRandomInt(5,1000);
+    color3 = getRandomInt(5,1000);
+    color4 = getRandomInt(5,1000);
+    color5 = getRandomInt(5,1000);
+    flask1.style.filter = 'hue-rotate(' + color1  + 'deg)';
+    flask2.style.filter = 'hue-rotate(' + color2 + 'deg)';
+    flask3.style.filter = 'hue-rotate(' + color3  + 'deg)';
+    flask4.style.filter = 'hue-rotate(' + color4  + 'deg)';
+    flask5.style.filter = 'hue-rotate(' + color5 + 'deg)';
+}
+
 function ifEqualyColorFlasks() {
     if(flask1.style.filter == flask2.style.filter || flask1.style.filter == flask3.style.filter || flask1.style.filter == flask4.style.filter
     || flask1.style.filter == flask5.style.filter || flask2.style.filter == flask1.style.filter || flask2.style.filter == flask3.style.filter ||
@@ -213,11 +226,16 @@ function ifEqualyColorFlasks() {
     flask4.style.filter == flask1.style.filter || flask4.style.filter == flask2.style.filter || flask4.style.filter == flask3.style.filter ||
     flask4.style.filter == flask5.style.filter || flask5.style.filter == flask1.style.filter || flask5.style.filter == flask2.style.filter ||
     flask5.style.filter == flask3.style.filter || flask5.style.filter == flask4.style.filter) {
-        flask1.style.filter = 'hue-rotate(' + getRandomInt(5,1000) + 'deg)';
-        flask2.style.filter = 'hue-rotate(' + getRandomInt(5,1000) + 'deg)';
-        flask3.style.filter = 'hue-rotate(' + getRandomInt(5,1000) + 'deg)';
-        flask4.style.filter = 'hue-rotate(' + getRandomInt(5,1000) + 'deg)';
-        flask5.style.filter = 'hue-rotate(' + getRandomInt(5,1000) + 'deg)';
+        color1 = getRandomInt(5,1000);
+        color2 = getRandomInt(5,1000);
+        color3 = getRandomInt(5,1000);
+        color4 = getRandomInt(5,1000);
+        color5 = getRandomInt(5,1000);
+        flask1.style.filter = 'hue-rotate(' + color1  + 'deg)';
+        flask2.style.filter = 'hue-rotate(' + color2 + 'deg)';
+        flask3.style.filter = 'hue-rotate(' + color3  + 'deg)';
+        flask4.style.filter = 'hue-rotate(' + color4  + 'deg)';
+        flask5.style.filter = 'hue-rotate(' + color5 + 'deg)';
     }
 }
 
