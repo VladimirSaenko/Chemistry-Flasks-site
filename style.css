@@ -177,3 +177,15 @@ body {
   50% {box-shadow: 0 0 80px rgb(240, 228, 228);}
   to {box-shadow: 0 0 30px #000000;}
 }
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+  .container ul {
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+  }
+
+  .renameButton {
+    display: none;
+  }
+}
