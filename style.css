@@ -17,10 +17,6 @@ body {
   width: 100%;
   height: 100%;
   background: white;
-  /* background: url(background.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
 }
 
 .container ul {
@@ -37,6 +33,9 @@ body {
 }
 
 .flask {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
   position: relative;
   cursor: pointer;
   text-align: center;
