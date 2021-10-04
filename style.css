@@ -222,8 +222,8 @@ body {
 @media screen and (min-width: 300px) and (max-width: 800px) {
   .container ul {
     flex-direction: column;
-    justify-content: end;
-    align-items: flex-end;
+    justify-content: start;
+    align-items: center;
   }
 
   .repaintButton, .renameButton {
