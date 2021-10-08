@@ -18,7 +18,7 @@
 
 ### 6.Возможность изменить цвета колб,нажатием на кнопку 'Repaint All'
 
-## Porfolio-3 {
+## Portfolio {
 
 ### https://vladimirsaenko.github.io/Portfolio-3/sites/site-10/Chemistry-Flasks-site/index.html
 
