@@ -2,7 +2,7 @@
  
 ### Сайт с химическими колбами
 
-![23423423](https://user-images.githubusercontent.com/56477695/125131668-c58a5800-e10b-11eb-84ba-7ee0f84962c9.jpg)
+![photo_2021-10-08_15-14-08](https://user-images.githubusercontent.com/56477695/136626739-80bc3ca5-33d2-4661-9f56-1fd516fcec1e.jpg)
 
 ## Фичи:
 
