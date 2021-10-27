@@ -9,11 +9,11 @@ let flask4 = document.getElementById("flask4");
 let flask5 = document.getElementById("flask5");
 let toggleDarkThemeButton = document.getElementById("toggleDark");
 let toggleLightThemeButton = document.getElementById("toggleLight");
-let color1= getRandomInt(5,1000);
-let color2= getRandomInt(5,1000);
-let color3= getRandomInt(5,1000);
-let color4= getRandomInt(5,1000);
-let color5= getRandomInt(5,1000);
+let color1 = getRandomInt(5,1000);
+let color2 = getRandomInt(5,1000);
+let color3 = getRandomInt(5,1000);
+let color4 = getRandomInt(5,1000);
+let color5 = getRandomInt(5,1000);
 let chemistrynameLength = 4;
 let chemistrynames = [
     'гидро','хлор','ин','ан','дал','цикло','нид','гекс','рол','ка',
