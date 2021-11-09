@@ -43,7 +43,6 @@ function toggleDarkTheme() {
     substanceName4.style.color = "white";
     substanceName5.style.color = "white";
     toggleLightThemeButton.style.visibility = "visible";
-    
     if(window.matchMedia('screen and (min-width: 300px) and (max-width: 800px)')) {
         let body = document.body;
         body.style.background = "black";
@@ -59,7 +58,6 @@ function toggleLightTheme() {
     substanceName4.style.color = "black";
     substanceName5.style.color = "black";
     toggleLightThemeButton.style.visibility = "hidden";
-    
     if(window.matchMedia('screen and (min-width: 300px) and (max-width: 800px)')) {
         let body = document.body;
         body.style.background = "white";
