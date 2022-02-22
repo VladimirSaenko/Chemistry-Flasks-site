@@ -29,3 +29,9 @@
 ### https://codepen.io/vladimirsaenko/pen/OJmRbaE
 
 ### }
+
+## Flask {
+
+### https://vladimirsaenko.github.io/chemistry-flask/
+
+### }
