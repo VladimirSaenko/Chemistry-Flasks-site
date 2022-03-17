@@ -157,27 +157,27 @@ function autoColorFlasks() {
 }
 
 flask1.addEventListener('click', function() {
-    color1 = getRandomInt(0,1000);
+    color1 = getRandomInt(5,1000);
     flask1.style.filter = 'hue-rotate(' + color1 + 'deg)';
 })
 
 flask2.addEventListener('click', function() {
-    color2 = getRandomInt(0,1000);
+    color2 = getRandomInt(5,1000);
     flask2.style.filter = 'hue-rotate(' + color2 + 'deg)';
 })
 
 flask3.addEventListener('click', function() {
-    color3 = getRandomInt(0,1000);
+    color3 = getRandomInt(5,1000);
     flask3.style.filter = 'hue-rotate(' + color3 + 'deg)';
 })
 
 flask4.addEventListener('click', function() {
-    color4 = getRandomInt(0,1000);
+    color4 = getRandomInt(5,1000);
     flask4.style.filter = 'hue-rotate(' + color4 + 'deg)';
 })
 
 flask5.addEventListener('click', function() {
-    color5 = getRandomInt(0,1000);
+    color5 = getRandomInt(5,1000);
     flask5.style.filter = 'hue-rotate(' + color5 + 'deg)';
 })
 
