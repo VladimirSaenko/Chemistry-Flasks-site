@@ -9,18 +9,18 @@ let flask4 = document.getElementById("flask4");
 let flask5 = document.getElementById("flask5");
 let toggleDarkThemeButton = document.getElementById("toggleDark");
 let toggleLightThemeButton = document.getElementById("toggleLight");
-let color1 = getRandomInt(5,1000);
-let color2 = getRandomInt(5,1000);
-let color3 = getRandomInt(5,1000);
-let color4 = getRandomInt(5,1000);
-let color5 = getRandomInt(5,1000);
+let color1 = getRandomInt(5,360);
+let color2 = getRandomInt(5,360);
+let color3 = getRandomInt(5,360);
+let color4 = getRandomInt(5,360);
+let color5 = getRandomInt(5,360);
 let chemistrynameLength = 4;
 let chemistrynames = [
     'гидро','хлор','ин','ан','дал','цикло','нид','гекс','рол','ка',
     'лин','кло','нонан','нол','бен','зол','окс','гли','ин','лит',
     'кси','эти','лен','поли','ти','кол','трит','пен','бу','та',
     'про','ар','зил','ард','зил','ал','па','аква','ви','зол',
-    'гид','де','аце','тон','ол','изо','бит','дио','ксид','лиз',
+    'гид','де','аце','тон','ол','изо','бит','дио','лиз',
     'ват','цик','бон','тер','эпо','окта','тетра','ил','нат','диен'
 ];
 let substanceName1 = document.getElementById("name1");
