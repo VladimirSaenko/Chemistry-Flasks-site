@@ -18,8 +18,6 @@
 
 ### 6 .Возможность изменить цвета колб, нажатием на кнопку 'Repaint All'
 
-## Portfolio: https://vladimirsaenko.github.io/Portfolio-3/sites/site-10/Chemistry-Flasks-site/index.html
-
 ## Codepen: https://codepen.io/vladimirsaenko/pen/OJmRbaE
 
 ## Flask/ Колба : https://vladimirsaenko.github.io/chemistry-flask/
