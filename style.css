@@ -11,6 +11,68 @@ body {
   height: 100vh;
 }
 
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  border: 1px solid black;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  border-radius: 34px;
+  background-color: black;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: black;
+  border: 1px solid white;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+  background-color: white;
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -112,7 +174,7 @@ body {
   height: 65px;
   border-radius: 25px;
   background: white;
-  color: #00adff;
+  color: #000000;
   font-size: 45px;
   text-align: center;
   text-shadow: black 1px 2px 1px;
@@ -122,8 +184,8 @@ body {
 }
 
 .renameButton:active, .repaintButton:active {
-  background: gray;
-  color: #339aca;
+  background: black;
+  color: white;
 }
 
 .repaintButton {
@@ -133,40 +195,13 @@ body {
   height: 65px;
   border-radius: 25px;
   background: white;
-  color: #00adff;
+  color: #000000;
   font-size: 45px;
   text-align: center;
   text-shadow: black 1px 2px 1px;
   outline: none;
   cursor: pointer;
   text-transform: capitalize;
-}
-
-.toggleDarkTheme {
-  cursor: pointer;
-  position: absolute;
-  top: 10px;
-  left: 50px;
-  width: 75px;
-  height: 75px;
-  border-radius: 50%;
-  outline: none;
-  border-color: transparent;
-  background: black;
-}
-
-.toggleLightTheme {
-  visibility: hidden;
-  cursor: pointer;
-  position: absolute;
-  top: 10px;
-  left: 50px;
-  width: 55px;
-  height: 55px;
-  border-radius: 50%;
-  outline: none;
-  border-color: transparent;
-  background: yellow;
 }
 
 @keyframes bubbles {
