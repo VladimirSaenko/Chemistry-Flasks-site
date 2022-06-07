@@ -19,5 +19,3 @@
 ### 6 .Возможность изменить цвета колб, нажатием на кнопку 'Repaint All'
 
 ## Codepen: https://codepen.io/vladimirsaenko/pen/OJmRbaE
-
-## Flask/ Колба : https://vladimirsaenko.github.io/chemistry-flask/
