@@ -2,6 +2,7 @@
 "use strict";
 
 let container = document.getElementById("container");
+let body = document.body;
 let flask1 = document.getElementById("flask1");
 let flask2 = document.getElementById("flask2");
 let flask3 = document.getElementById("flask3");
@@ -37,6 +38,7 @@ let isActive = false;
 themetoggle.addEventListener('click', () => {
     if(!isActive) {
         container.style.background = 'black';
+        body.style.background = 'black';
         substanceName1.style.color = 'white';
         substanceName2.style.color = 'white';
         substanceName3.style.color = 'white';
@@ -45,6 +47,7 @@ themetoggle.addEventListener('click', () => {
     }
     else if(isActive) {
         container.style.background = 'white';
+        body.style.background = 'white';
         substanceName1.style.color = 'black';
         substanceName2.style.color = 'black';
         substanceName3.style.color = 'black';
